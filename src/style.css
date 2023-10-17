@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.favorites-list {
+  color: rgb(197, 18, 75);
+}
+
+.favorites-list p {
+  color: rgb(202, 102, 134);
+}
+
+.favorites-list li {
+  color: rgb(255, 100, 150);
+  list-style-type: square;
+}
+
+.favorite-button {
+  text-align: center;
+  align-items: center;
+}
+
+.heart-icon {
+  margin-left: 5px;
+}
